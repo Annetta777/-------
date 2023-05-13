@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  width: 1440px;
+  height: 800px;
+  background-color: #ffffff;
+  border: 1px solid #C8D9FB
+}
+
+.container {
+  display: flex;
+  padding: 120px 140px;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+}
+
+.container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em; 
+  text-align: left;
+  color: #527CCD;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  
+}
+
+.slidebar {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  top: 220px;
+  left: 120px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #C8D9FB;
+  width: 260px;
+  margin: 20px;
+  cursor: pointer;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.slider img {
+  height: 160px;
+  width: 220px;
+  left: 460px;
+  top: 240px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.slider h3 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #527CCD;
+  height: 22px;
+  width: 72px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.slider h2 {
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #527CCD;
+height: 78px;
+width: 230px;
+margin: 0;
+margin-bottom: 10px;
+margin-left: 20px;
+margin-right: 10px;
+padding: 0;
+}
+
+.slider p {
+  height: 66px;
+  width: 220px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #527CCD;
+  margin: 0;
+  margin-left: 20px;
+  margin-bottom: 44px;
+  margin-right: 20px;
+  padding: 0;
+  
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #C8D9FB;
+  color: #527CCD;
+  cursor: pointer;
+  top: 120px;
+  right: 120px;
+  margin: 20px;
+}
+
+
+button:hover {
+  background-color: #C8D9FB;
+}
+
+.right-button {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+
+

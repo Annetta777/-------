@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+
+* {
+  box-sizing: border-box;
+}
+
+  body {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+  background: #FFFFFF;
+  border: 1px solid #C8D9FB;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+ .container {
+  position: absolute;
+  display: flex; 
+  padding: 0;
+  margin-top: 120px;
+  margin-bottom: 160px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+ .slidebar {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  top: 100px;
+}
+
+ h1 {
+width: 278px;
+margin: 0;
+margin-left: 20px;
+padding: 0;
+border-radius: nullpx;
+font-style: normal;
+font-size: 50px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+color: #527CCD;
+display: flex;
+}
+
+ .liner {
+  position: absolute;
+  height: 0px;
+  width: 360px;
+  left: 620px;
+  top: 30px;
+  border-radius: 0px;
+  border: 1px solid #C8D9FB;
+  display: flex;
+}
+
+ .liner-top {
+  position: absolute;
+  width: 60px;
+  height: 0px;
+  left: 620px;
+  top: 30px;
+  border-radius: 0px;
+  border: 1px solid #527CCD;
+  display: flex;
+}
+
+.controls {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  left: 1000px;
+  display: flex;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 0;
+  border: 1px solid #C8D9FB;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px 25px;
+  margin-top: 0;
+  background-color: #FFFFFF;
+}
+
+button:hover {
+  background-color: #C8D9FB;
+}
+
+.slider {
+  border: 1px solid #C8D9FB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+}
+
+ .photo {
+  width: 220px;
+  height: 160px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+ h3 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #527CCD;
+  opacity: 0.6;
+  height: 22px;
+  width: 72px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 168px;
+  padding: 0;
+}
+
+ h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #527CCD;
+  height: 78px;
+  width: 230px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 0;
+  }
+  
+  p {
+    height: 66px;
+    width: 220px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #527CCD;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 44px;
+    margin-right: 20px;
+    padding: 0;
+  }
+.active {
+    border: 1px solid #527CCD;
+  }
+
+  @media (max-width: 400px) {
+    body {
+      width: 320px;
+    }
+ .container {
+      margin-top: 130px;
+      margin-bottom: 87px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+ .slidebar {
+      top: 90px;
+    }
+    
+   h1 {
+    width: 223px;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
+    }
+    
+  .liner {
+    
+      width: 130px;
+      left: 80px;
+      top: 560px;
+    }
+    
+   .liner-top {
+      width: 22px;
+      left: 80px;
+      top: 560px;
+    }
+    
+   .controls {
+      width: 280px;
+      height: 55px;
+      left: -20px;
+      top: 530px;
+    }
+    
+    button {
+      width: 55px;
+      height: 55px;
+      font-size: 18px;
+      margin-right: 160px;
+      margin-top: 0;
+      padding: 18px 20px;
+
+    }
+    
+    .slider {
+      margin-left: 5px;
+      margin-right: 5px;
+      left: -5px;
+    }
+    
+  .photo {
+      width: 240px;
+      height: 160px;
+    }
+    
+     h3 {
+      margin-right: 188px;
+    }
+    
+   h2 {
+      width: 240px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-left: 15px;
+      margin-right: 10px;
+      }
+      
+  p {
+        height: 88px;
+        width: 240px;
+        margin-bottom: 46px;
+      }
+  }
