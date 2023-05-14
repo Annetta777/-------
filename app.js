@@ -5,7 +5,7 @@ const rightBtn = document.querySelector('#rightBtn')
 let slidebar = document.querySelector('.slidebar')
 
 let linesize = line.offsetWidth
-let lineMaxleft = linesize * 3
+let lineMaxleft = linesize * 4
 let lineLeft = line.offsetLeft
 let offset = 0
 

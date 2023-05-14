@@ -201,14 +201,14 @@ button:hover {
   .liner {
     
       width: 130px;
-      left: 80px;
-      top: 560px;
+      left: 75px;
+      top: 580px;
     }
     
    .liner-top {
       width: 22px;
-      left: 80px;
-      top: 560px;
+      left: 75px;
+      top: 580px;
     }
     
    .controls {
@@ -216,6 +216,7 @@ button:hover {
       height: 55px;
       left: -20px;
       top: 530px;
+      margin-top: 20px;
     }
     
     button {
